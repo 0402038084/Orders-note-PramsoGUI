@@ -1,0 +1,3603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Secondwindow</class>
+ <widget class="QWidget" name="Secondwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>490</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>720</width>
+    <height>490</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/pramso_1.ico</normaloff>Icons/pramso_1.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_10">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="new_pages">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_tractor">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(48, 48, 48);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="styleSheet">
+             <string notr="true">
+font: 87 18pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>NUEVO EQUIPO PARA TRACTOR</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(63, 63, 63);
+font: 11pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="7,3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QSplitter" name="splitter_13">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="sizeIncrement">
+                 <size>
+                  <width>54</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ID_T  (debe ser de 6 cifras)</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="ID_T">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_14">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MARCA</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="tractor_marca">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>John Deere</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Case</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>New Holland</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Massey fergusson</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Valtra</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Pauny</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Fiat</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Zanello</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Agco Allis</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Deutz</string>
+                 </property>
+                </item>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_15">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_6">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MODELO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="tractor_modelo">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_64">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>(RD se hace por separado)</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BASES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bases_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_18">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>RIENDAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="riendas">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_8">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ADAPTADORES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="adaptadores_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_19">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 5/8</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones58_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_3">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_9">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>COGOTE</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="cogote_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_20">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 7/8</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones78_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>6</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_11">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>FRENTE</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="frente_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_21">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 20mm</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones20mm_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_5">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_10">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BRAZOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="brazos_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_22">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 9/16</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones916_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_6">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_12">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PLACA PORTA BRAZOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="placaportabr_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_23">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>GRAMPAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="grampas_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>12+8</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_7">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PORTAROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="portarolo_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_24">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>RESORTES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="resortes_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_14">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="rolo_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_25">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>CALCOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="calcos_tractor">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>OK</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_9">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_15">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>CILINDROS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="cilindros">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_26">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KIT HIDRAÚLICO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="kithid">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_10">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_16">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>TOPES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="topes">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_27">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KIT TRANSFERENCIA</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="kittran">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_11">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_100">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MANGUERAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="mangueras">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_29">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>TEFLON</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="teflon">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_12">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_17">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BANDERAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="banderas">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_30">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PRECINTOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="precintos">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>25</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>197</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_37">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <widget class="QPushButton" name="btnguardar_t">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Guardar Tractor</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="reiniciar_t">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Reiniciar</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="borrar_t">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Borrar todo</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="cerrar_t">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Cerrar</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_cosechadora">
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="0,7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(48, 48, 48);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_28">
+            <property name="styleSheet">
+             <string notr="true">
+font: 87 18pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>NUEVO EQUIPO PARA COSECHADORA</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(63, 63, 63);
+font: 11pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="7,3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QSplitter" name="splitter_16">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_32">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="sizeIncrement">
+                 <size>
+                  <width>54</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ID_C  (debe ser de 6 cifras)</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="ID_C">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_17">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_34">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MARCA</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="cosechadora_marca">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>John Deere</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Case</string>
+                 </property>
+                </item>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_18">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_35">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MODELO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="cosechadora_modelo">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_36">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>(RD se hace por separado)</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_11">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_26">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_37">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BASES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bases_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_38">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 5/8</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones58_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_25">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_39">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PLACA PORTA CADENA</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="placaportacade_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_40">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 7/8</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones78_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_24">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_41">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>GRAMPAS CADENA</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="grampascade_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_42">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 20mm</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones20mm_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_23">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_43">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>FRENTE</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="frente_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_44">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 9/16</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones916_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_22">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_45">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BRAZOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="brazos_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_46">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 1/2</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones12_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_21">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_47">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PLACA PORTA BRAZOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="placaportabr_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_48">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>GRAMPAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="grampas_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>12+8</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_20">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_49">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PORTAROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="portarolo_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_50">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>RESORTES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="resortes_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_19">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_51">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="rolo_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_53">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>CALCOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="calcos_cosechadora">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>OK</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_60">
+               <property name="minimumSize">
+                <size>
+                 <width>201</width>
+                 <height>21</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_8">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>197</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_36">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <widget class="QPushButton" name="btnguardar_c">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Guardar Cosechadora</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="reiniciar_c">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Reiniciar</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="borrar_c">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Borrar todo</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="cerrar_c">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Cerrar</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_plataforma">
+      <layout class="QVBoxLayout" name="verticalLayout_9" stretch="1,7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_9">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(48, 48, 48);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_52">
+            <property name="styleSheet">
+             <string notr="true">font: 87 18pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>NUEVO EQUIPO PARA PLATAFORMA</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_10">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(63, 63, 63);
+font: 11pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="7,3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_11">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <widget class="QSplitter" name="splitter_27">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_54">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="sizeIncrement">
+                 <size>
+                  <width>54</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ID_PL  (debe ser de 6 cifras)</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="ID_PL">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_28">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_56">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MARCA</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="plataforma_marca">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>JD</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>NH</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Case</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Ombu</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Allochis</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Challenger</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>De Grande</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Don Roque</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Franco Fabril</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Mainero</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Maizco</string>
+                 </property>
+                </item>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_29">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_57">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>MODELO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="plataforma_modelo">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_58">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>(RD se hace por separado)</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_39">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_71">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>TIPO DE PLATAFORMA</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="tipopl">
+                <property name="minimumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>141</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Maicero</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Sojero</string>
+                 </property>
+                </item>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_12">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_30">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_59">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BASES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bases_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_74">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 20mm</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones20mm_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_31">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_63">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BRAZOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="brazos_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_76">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 9/16mm</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones916_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_32">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_66">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>PORTAROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="portarolo_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_62">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>GRAMPAS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="grampas_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_33">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_68">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ROLO</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="rolo_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_65">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>RESORTES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="resortes_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_34">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_70">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 5/8</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones58_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_67">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>CALCOS</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="calcos_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>OK</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_35">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QLabel" name="label_72">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>BULONES 1/2</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="bulones12_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_69">
+                <property name="minimumSize">
+                 <size>
+                  <width>151</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>151</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>ADAPTADORES</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="adaptador_pl">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>41</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_78">
+               <property name="minimumSize">
+                <size>
+                 <width>201</width>
+                 <height>21</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_12">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <spacer name="verticalSpacer_13">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>197</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSplitter" name="splitter_38">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <widget class="QPushButton" name="btnguardar_pl">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Guardar Plataforma</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="reiniciar_pl">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Reiniciar</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="borrar_pl">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Borrar todo</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="cerrar_pl">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Cerrar</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

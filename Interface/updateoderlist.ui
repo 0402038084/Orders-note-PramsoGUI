@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/pramso_1.ico</normaloff>Icons/pramso_1.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(52, 52, 52);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="9">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLineEdit" name="cliente_edit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>90</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_63">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>90</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>CLIENTE-PEDIDO</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="tractor_edit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>130</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_64">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>130</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>TRACTOR</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="loadtractor">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>130</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idtedit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>170</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_65">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ID_T</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="cosechadora_edit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>210</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_66">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>210</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>COSECHADORA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_67">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>250</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ID_C</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idcedit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>250</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="loadcombine">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>210</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_68">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>330</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ID_PL SOJERA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idpledit_sojero">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>330</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_69">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>290</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PLATAFORMA SOJERA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="plataforma_sojera">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>290</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="loadplatform_sojero">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>290</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_70">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>50</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>CHASIS/EMBOCADOR</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="chasisembocador">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>50</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_71">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>130</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>RODADO</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="rodado">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>130</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="observaciones">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>90</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_72">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>90</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>OBSERVACIONES</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="localidad">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>170</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_73">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>170</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>LOCALIDAD</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_74">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>210</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PROVINCIA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="provincia">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>210</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>0</y>
+           <width>291</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 87 16pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>EDITAR NOTA DE PEDIDO</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="load_client">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>50</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guardarpedido">
+         <property name="geometry">
+          <rect>
+           <x>530</x>
+           <y>370</y>
+           <width>251</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Guardar cambios</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="borrartodo">
+         <property name="geometry">
+          <rect>
+           <x>530</x>
+           <y>410</y>
+           <width>251</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Borrar todo</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cerrar">
+         <property name="geometry">
+          <rect>
+           <x>530</x>
+           <y>450</y>
+           <width>251</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Cerrar</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idpedido_edit">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>50</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_76">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ID_PEDIDO</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="estado">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>290</y>
+           <width>181</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>NUEVO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>NORMAL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>URGENTE</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_77">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>290</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ESTADO</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="fechentrega">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>250</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_78">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>250</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>FECHA DE ENTREGA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idpledit_maicero">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>410</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_79">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>410</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ID_PL MAICERO</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="plataforma_maicera">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>370</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="loadplatform_maicero">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>370</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_80">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>370</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 8pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PLATAFORMA MAICERO</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="maicero_delete">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>370</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</iconset>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sojero_delete">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>290</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</iconset>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="tractor_delete">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>130</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</iconset>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="combine_delete">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>210</y>
+           <width>31</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</normaloff>Icons/kisspng-computer-icons-vector-graphics-portable-network-gr-trash-svg-png-icon-free-download-431816-o.svg</iconset>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

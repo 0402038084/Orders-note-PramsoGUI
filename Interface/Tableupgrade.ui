@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>535</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/pramso_1.ico</normaloff>Icons/pramso_1.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(59, 59, 59);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,7">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(52, 52, 52);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QSplitter" name="splitter">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QLabel" name="titulosuperior">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);
+font: 87 24pt &quot;Arial Black&quot;;</string>
+            </property>
+            <property name="text">
+             <string>TRACTOR</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QStackedWidget" name="pagesoftables">
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <widget class="QWidget" name="page_c">
+            <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="7,2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_4">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QTableWidget" name="tabla_cosechadora">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <column>
+                   <property name="text">
+                    <string>ID_C</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MARCA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MODELO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ID_PC</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BASES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PLACA PORTA CADENA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>GRAMPA CADENAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>FRENTE</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BRAZOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PLACA PORTA BRAZOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PORTA ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 5/8</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 7/8</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 20mm</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 9/16</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 1/2</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>GRAMPAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>RESORTES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>CALCOS</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(35, 35, 35);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>ID:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="id_c">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MARCA:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="marca_c">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MODELO:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="modelo_c">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="buscar_c">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+font: 11pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Buscar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>209</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_pl">
+            <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="7,2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QTableWidget" name="tabla_plataforma">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <column>
+                   <property name="text">
+                    <string>ID_PL</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MARCA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MODELO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>TIPO DE PLATAFORMA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ID_PPL</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BASES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BRAZOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PORTA ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 5/8</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 1/2</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 20mm</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 9/16</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>GRAMPAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>RESORTES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>CALCOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ADAPATADORES</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_7">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(35, 35, 35);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>ID:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="id_pl">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MARCA:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="marca_pl">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MODELO:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="modelo_pl">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_8">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Maximum</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="buscar_pl">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+font: 11pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Buscar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>208</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_t">
+            <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="7,2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_8">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QTableWidget" name="tabla_tractor">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                   <bool>false</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>ID_T</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MARCA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MODELO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ID_PT</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BASES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ADAPTADORES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>COGOTES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>FRENTE</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BRAZOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PLACA PORTA BRAZOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PORTA ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ROLO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>CILINDROS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>TOPES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>MANGUERAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BANDERAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>RIENDAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 5/8</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES7/8</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 20mm</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>BULONES 9/16</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>GRAMPAS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>RESORTES</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>CALCOS</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>KIT HIDRAULICO</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>KIT TRANSFERENCIA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>TEFLON</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>PRECINTOS</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_9">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(35, 35, 35);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_7">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>ID:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="id_t">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MARCA:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="marca_t">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>MODELO:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="modelo_t">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_7">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>28</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="buscar_t">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+font: 11pt &quot;Franklin Gothic Demi Cond&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Buscar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>208</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
