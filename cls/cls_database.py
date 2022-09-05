@@ -428,3 +428,14 @@ class comunication_pramso_database():
         cursor.close()
 
         return registro
+    
+    
+    #<------------Metodo para cargar tabla de equipos entregados con busqueda------------>
+    def search_ol_ee(self, CLIENTE, TRACTOR, COSECHADORA, PLATAFORMA_S, PLATAFORMA_M, CHASISEMBOCADOR, OBSERVACIONES, RODADO, LOCALIDAD, PROVINCIA, ESTADO): 
+        cursor = self.conexion.cursor()
+        bd = 'SELECT * FROM ORDER_NOTE_BACKUP WHERE CLIENTE LIKE "%{}%" AND TRACTOR LIKE "%{}%" AND COSECHADORA LIKE "%{}%" AND PLATAFORMA_SOJERA LIKE "%{}%" AND PLATAFORMA_MAICERA LIKE "%{}%" AND CHASISEMBOCADOR LIKE "%{}%" AND RODADO LIKE "%{}%" AND OBSERVACIONES LIKE "%{}%" AND LOCALIDAD LIKE "%{}%" AND PROVINCIA LIKE "%{}%" AND ESTADO LIKE "%{}%"'.format(CLIENTE, TRACTOR, COSECHADORA, PLATAFORMA_S, PLATAFORMA_M, CHASISEMBOCADOR, OBSERVACIONES, RODADO, LOCALIDAD, PROVINCIA, ESTADO)
+        cursor.execute(bd)
+        registro = cursor.fetchall()
+        cursor.close()
+
+        return registro

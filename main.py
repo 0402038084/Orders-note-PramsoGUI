@@ -474,8 +474,32 @@ class Ventanaprincipal(QMainWindow):
         self.tabla_pedidos_entregados.cellClicked.connect(lambda: habilitar_botones())
         self.restaurar_ee.setEnabled(False)
         self.borrar_ee.setEnabled(False)
-        #self.buscar_ol_ee.clicked.connect(lambda: buscar_ee())
+        self.buscar_ol_ee.clicked.connect(lambda: buscar_ee())
         self.borrar_ee.clicked.connect(lambda: borrar_ee())
+
+        def buscar_ee():
+            self.buscarOl = buscarorderlist()
+            self.buscarOl.exec_()
+            try:
+                cliente = self.buscarOl.cliente
+                tractor = self.buscarOl.tractor
+                cosechadora = self.buscarOl.cosechadora
+                plataforma_sojero = self.buscarOl.plataforma_sojero
+                plataforma_maicero = self.buscarOl.plataforma_maicero
+                chasisembocador = self.buscarOl.chasisembocador_
+                observaciones = self.buscarOl.observaciones_
+                rodado = self.buscarOl.rodado_
+                localidad = self.buscarOl.localidad_
+                provincia = self.buscarOl.provincia_
+                estado = self.buscarOl.estado_
+                if estado == "TODOS":
+                    estado = ""
+                datos = self.database.search_ol_ee(cliente, tractor, cosechadora, plataforma_sojero, plataforma_maicero, chasisembocador, observaciones, rodado, localidad, provincia, estado)
+                tabla_ee_busqueda(datos)
+            except:
+                pass
+
+
 
         def tabla_ee():
             datos = self.database.mostrar_ee() #Trae el metodo de la base de datos 
@@ -501,6 +525,39 @@ class Ventanaprincipal(QMainWindow):
                 tablerow +=1
                 
         tabla_ee()
+        
+        #<------------Cargar tabla de pedidos con busqueda------------>
+        def tabla_ee_busqueda(datos):
+            i = len(datos) #Lee las filas
+            self.tabla_pedidos_entregados.setRowCount(i) #Ejecuta la cantidad de filas
+            tablerow = 0  #Variable contable para posicionarse en una fila
+            for row in datos:
+                self.tabla_pedidos_entregados.setItem(tablerow,0,QtWidgets.QTableWidgetItem(str(row[0])))
+                self.tabla_pedidos_entregados.setItem(tablerow,1,QtWidgets.QTableWidgetItem(row[1]))
+                self.tabla_pedidos_entregados.setItem(tablerow,2,QtWidgets.QTableWidgetItem(row[2]))
+                self.tabla_pedidos_entregados.setItem(tablerow,3,QtWidgets.QTableWidgetItem(row[3]))
+                self.tabla_pedidos_entregados.setItem(tablerow,4,QtWidgets.QTableWidgetItem(row[5]))
+                self.tabla_pedidos_entregados.setItem(tablerow,5,QtWidgets.QTableWidgetItem(row[7]))
+                self.tabla_pedidos_entregados.setItem(tablerow,6,QtWidgets.QTableWidgetItem(row[9]))
+                self.tabla_pedidos_entregados.setItem(tablerow,7,QtWidgets.QTableWidgetItem(row[11]))
+                self.tabla_pedidos_entregados.setItem(tablerow,8,QtWidgets.QTableWidgetItem(row[12]))
+                self.tabla_pedidos_entregados.setItem(tablerow,9,QtWidgets.QTableWidgetItem(row[13]))
+                self.tabla_pedidos_entregados.setItem(tablerow,10,QtWidgets.QTableWidgetItem(row[14]))
+                self.tabla_pedidos_entregados.setItem(tablerow,11,QtWidgets.QTableWidgetItem(row[15]))
+                self.tabla_pedidos_entregados.setItem(tablerow,12,QtWidgets.QTableWidgetItem(row[16]))
+                self.tabla_pedidos_entregados.setItem(tablerow,13,QtWidgets.QTableWidgetItem(row[17]))
+
+                for x in range(14):
+                    Estado =  str(row[17])
+                    if Estado == "NUEVO":
+                        self.tabla_pedidos_entregados.item(tablerow, x).setBackground(QtGui.QColor(170, 255, 127))
+                    elif Estado == "NORMAL": 
+                        self.tabla_pedidos_entregados.item(tablerow, x).setBackground(QtGui.QColor(255, 255, 127))
+                    elif Estado == "URGENTE": 
+                        self.tabla_pedidos_entregados.item(tablerow, x).setBackground(QtGui.QColor(255, 99, 88))
+                
+                tablerow +=1
+
                                 
         def habilitar_botones():
             self.restaurar_ee.setEnabled(True)
