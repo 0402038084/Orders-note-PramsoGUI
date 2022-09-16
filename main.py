@@ -14,6 +14,7 @@ from cls.cls_register_delete import eliminarequipo
 from cls.cls_register_edit import editarequipo
 from cls.cls_register_new import nuevoequipo
 from cls.cls_search_ol import buscarorderlist
+from cls.cls_load_prov import load_prov
 
 
 class Ventanaprincipal(QMainWindow):
@@ -34,6 +35,7 @@ class Ventanaprincipal(QMainWindow):
         self.btnregistro.clicked.connect(lambda: self.contenedor_pages.setCurrentWidget(self.page_registros))#Muestra el Frame Equipos
         self.btnmedidas.clicked.connect(lambda: self.contenedor_pages.setCurrentWidget(self.page_medidas)) #Muestra el Frame medidas
         self.btnee.clicked.connect(lambda: self.contenedor_pages.setCurrentWidget(self.page_ee)) #Muestra el Frame medidas
+        self.btnpedidop.clicked.connect(lambda: self.contenedor_pages.setCurrentWidget(self.page_pedidop)) #Muestra el Frame medidas
 
 
         #<------------Botones de Nota de pedidos------------>
@@ -613,6 +615,22 @@ class Ventanaprincipal(QMainWindow):
                     pass
             else:
                 QMessageBox.warning(self, 'Error', 'No seleccionaste ningun pedido', QMessageBox.Ok)
+                
+            
+        #<------------Tabla de pedido a proveedor------------>
+        
+        def cargar_n_pedido():
+            db = self.database.id_pp()
+            db_select = db[0]
+            numero = int(db_select[0]) + 1  
+            self.n_prov.setText(str(numero))
+            
+        def cargar_provedor():
+            self.loadprov = editarequipo() #Se carga la clase editar equipo
+            self.loadprov.exec_()
+            pass
+            
+        cargar_n_pedido()
 
     
 

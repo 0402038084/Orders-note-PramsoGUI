@@ -439,3 +439,14 @@ class comunication_pramso_database():
         cursor.close()
 
         return registro
+
+    #<------------Metodo para pedidos a proveedores------------>
+
+    def id_pp(self):
+        cursor = self.conexion.cursor()
+        bd = 'SELECT ID_PP FROM PEDIDOS_PROVEEDOR'
+        cursor.execute(bd)
+        ID = cursor.fetchall()
+        cursor.close()
+
+        return ID
