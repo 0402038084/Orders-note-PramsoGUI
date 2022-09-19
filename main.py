@@ -619,17 +619,21 @@ class Ventanaprincipal(QMainWindow):
             
         #<------------Tabla de pedido a proveedor------------>
         
+        self.cargarproveedor.clicked.connect(lambda: cargar_proveedor())#Muestra el Frame Nota de pedidos
+
+        
         def cargar_n_pedido():
             db = self.database.id_pp()
             db_select = db[0]
             numero = int(db_select[0]) + 1  
             self.n_prov.setText(str(numero))
             
-        def cargar_provedor():
-            self.loadprov = editarequipo() #Se carga la clase editar equipo
+        def cargar_proveedor():
+            self.loadprov = load_prov() #Se carga la clase editar equipo
             self.loadprov.exec_()
-            pass
-            
+            self.proveedor.setText(self.loadprov.list_equipment[1])
+            self.id_prov.setText(str(self.loadprov.list_equipment[0]))
+
         cargar_n_pedido()
 
     

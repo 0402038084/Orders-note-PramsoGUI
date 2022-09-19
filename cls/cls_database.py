@@ -450,3 +450,14 @@ class comunication_pramso_database():
         cursor.close()
 
         return ID
+    
+    def proveedores(self):
+        
+        cursor = self.conexion.cursor()
+        bd = 'SELECT * FROM PROVEEDOR_P'
+        cursor.execute(bd)
+        data = cursor.fetchall()
+        cursor.close()
+
+        return data
+

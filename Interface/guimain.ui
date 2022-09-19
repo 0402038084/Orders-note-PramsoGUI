@@ -24,7 +24,7 @@
     <normaloff>Icons/pramso_1.ico</normaloff>Icons/pramso_1.ico</iconset>
   </property>
   <widget class="QWidget" name="framesprincipales">
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="14,1">
     <property name="spacing">
      <number>0</number>
     </property>
@@ -1079,7 +1079,7 @@ color: rgb(0, 0, 0);</string>
                       <string>PARA:</string>
                      </property>
                     </widget>
-                    <widget class="QLineEdit" name="lineEdit_3">
+                    <widget class="QLineEdit" name="proveedor">
                      <property name="minimumSize">
                       <size>
                        <width>237</width>
@@ -1146,7 +1146,7 @@ color: rgb(0, 0, 0);</string>
                    <property name="orientation">
                     <enum>Qt::Horizontal</enum>
                    </property>
-                   <widget class="QTableWidget" name="tableWidget">
+                   <widget class="QTableWidget" name="tablapedido_prov">
                     <property name="minimumSize">
                      <size>
                       <width>441</width>
@@ -1805,11 +1805,10 @@ color: rgb(0, 0, 0);</string>
                   </widget>
                  </item>
                 </layout>
+                <zorder>splitter_4</zorder>
                 <zorder>splitter_3</zorder>
-                <zorder>splitter_7</zorder>
                 <zorder>label_6</zorder>
                 <zorder>verticalSpacer_2</zorder>
-                <zorder>id_prov</zorder>
                </widget>
               </item>
              </layout>
