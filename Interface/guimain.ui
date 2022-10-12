@@ -1746,7 +1746,7 @@ color: rgb(0, 0, 0);</string>
 </string>
                        </property>
                        <property name="text">
-                        <string>Guardar e Imprimir equipo</string>
+                        <string>Guardar e Imprimir pedido</string>
                        </property>
                       </widget>
                      </item>

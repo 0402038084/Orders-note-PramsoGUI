@@ -1,4 +1,5 @@
 #Interfaz Gui principal
+#EJECUTAR SISTEMA AQUI!!!!!!!!!!!!!!
 
 import sys
 
@@ -619,7 +620,8 @@ class Ventanaprincipal(QMainWindow):
             
         #<------------Tabla de pedido a proveedor------------>
         
-        self.cargarproveedor.clicked.connect(lambda: cargar_proveedor())#Muestra el Frame Nota de pedidos
+        self.cargarproveedor.clicked.connect(lambda: cargar_proveedor())
+        self.guardareimprimir.clicked.connect(lambda: guardar_imprimir())
 
         
         def cargar_n_pedido():
@@ -629,10 +631,30 @@ class Ventanaprincipal(QMainWindow):
             self.n_prov.setText(str(numero))
             
         def cargar_proveedor():
-            self.loadprov = load_prov() #Se carga la clase editar equipo
-            self.loadprov.exec_()
-            self.proveedor.setText(self.loadprov.list_equipment[1])
-            self.id_prov.setText(str(self.loadprov.list_equipment[0]))
+            try: 
+                self.loadprov = load_prov() #Se carga la clase editar equipo
+                self.loadprov.exec_()
+                self.proveedor.setText(self.loadprov.list_prov[1])
+                self.id_prov.setText(str(self.loadprov.list_prov[0]))
+            except:
+                pass
+            
+        def guardar_imprimir():
+            proveedor = str(self.proveedor.text().upper())
+            if proveedor == "":
+                QMessageBox.information(self, 'Error', 'No se ingreso ningún proveedor', QMessageBox.Ok)
+            else: 
+                self.list_prov = []
+                for x in range(18):
+                    tupla = (str(self.tablapedido_prov.item(x, 0).text()), str(self.tablapedido_prov.item(x, 1).text()))
+                    self.list_prov.append(tupla)  
+                print(self.list_prov)
+                
+                self.tablapedido_prov.clearContents()
+                self.proveedor.setText("")
+                self.id_prov.setText("")
+                cargar_n_pedido()
+                
 
         cargar_n_pedido()
 
